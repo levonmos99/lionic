@@ -8,7 +8,7 @@ html {
     box-sizing: inherit;
 }
 @font-face { 
-    font-family: 'OpenSans';
+    font-family: 'OpenSans-Light';
     src: local('OpenSans-Light'),
          url('../fonts/OpenSans-Light.woff2') format('woff2'),
          url('../fonts/OpenSans-Light.woff') format('woff');
@@ -56,16 +56,23 @@ a {
     text-decoration: none;
     color: inherit;
 }
-button {
+.free-trial
+ {
     background-color: #3172B9;
     color: #fff;
     border: none;
     padding: 15px 35px;
     border-radius: 3px;
-
 }
 .section-content {
-    margin-bottom: 87px;
+    background-image: url(../images/first-bg\ 1.jpg);
+    background-repeat: no-repeat;
+    width: 1540px;
+    height: 550px;
+    /* margin-bottom: 87px; */
+}
+.section-content-block {
+    padding-left: 185px;
 }
 
 .nav-list {
@@ -75,6 +82,7 @@ button {
 .nav-list, .nav-item-list {
     display: flex;
     align-items: center;
+    padding-left: 185px;
     /* justify-content: space-between; */
 }
 
@@ -86,4 +94,206 @@ button {
 
 .nav-list-item {
     font-family:'OpenSans-SemiBold',sans-serif ;
+}
+
+
+.way {
+    width: 529px;
+    height: 104px;
+
+}
+.text1 {
+    width: 471px;
+    height: 50px;
+}
+
+.dayTrial {
+    width: 250px;
+    height: 58px;
+    border-radius: 3px;
+    background-color:#3172B9;
+    color: #fff;
+    padding: 15px 35px;
+    margin-bottom: 14px;
+}
+
+.logo-secure {
+    
+    background-image: url(../images/secure.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 26px;
+    margin: 28px 40px 87px 40px;
+    font-size: 11px;
+}
+
+.list {
+    font-size: 36px;
+    display: flex;
+    margin: 87px 704px 21px 704px;
+
+}
+
+.services-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 160px;
+}
+
+.about-services {
+     font-size: 16px;
+    display: flex;
+    margin: 21px 480px 54px 480px;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 185px 0px 0px;
+    gap: 30px;
+    padding-left: 185px;
+}
+
+.list-services{
+    width: 270px;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;  
+    justify-content: center;
+}
+.about-services-block {
+    width: 210px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.article {
+    margin: 0;
+    padding-left: 185px;
+}
+
+.header-artilce {
+    font-size: 36px;
+    width: 118px;
+    height: 47px;
+    margin-bottom: 42px;
+}
+.articles-item-list {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #e4e4e4;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.articles-list-item {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex: 0 0 calc(50% - 15px);
+}
+
+.articles-list-item:nth-child(1) {
+    background-image: url(../images/Jurisdiction.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 180px;
+}
+
+.articles-list-item:nth-child(2) {
+    background-image: url(../images/Consulting.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 180px;
+}
+
+.articles-list-item:nth-child(3) {
+    background-image: url(../images/Rights\ and\ obilgations.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 180px;
+}
+
+.articles-list-item:nth-child(4) {
+    background-image: url(../images/Contractors.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 180px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+
+.aboutphoto {
+    height: 63px;
+    width: 210px;
+    font-size: 14px;
+}
+
+.description {
+    width: 109px;
+    height: 26px;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.date {
+    width: 59px;
+    height: 15px;
+    font-size: 10px;
+}
+
+.header-clients{
+    margin: 0px 1249px 42px 182px;
+}
+
+.clients-item-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 185px 248px 185px;
+    padding-left: 221px;
+}
+
+.clients-list-item {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 362px;
+}
+
+/* .comment-costomers {
+    padding: 51px 53px 33px 36px;
+} */
+
+.costomers-name {
+    display: flex;
+    flex-direction: column;
+    padding-left: 227px;
+}
+
+.costomers-name:nth-child(1) {
+    background-image: url(../images/John\ Armstrong.jpg);
+    background-repeat: no-repeat;
+}
+.costomers-name:nth-child(2) {
+    background-image: url(../images/Elizabeth\ Martin.jpg);
+    background-repeat: no-repeat;
+}
+.costomers-name:nth-child(3) {
+    background-image: url(../images/Robin\ Soutby.jpg);
+    background-repeat: no-repeat;
 }
