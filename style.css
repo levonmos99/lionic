@@ -203,7 +203,7 @@ a {
     border: 1px solid #e4e4e4;
     border-radius: 5px;
     height: 180px;
-    width: 570px;
+    max-width: 570px;
     
 }
 
@@ -277,31 +277,51 @@ a {
     flex-direction: row;
     margin-bottom: 248px;
     gap: 30px;
-    width: 370px;
-    height: 362px;
-    /* border-radius: 5px; */
-    border: #E4E4E4 solid 1px;
+    /* width: 370px;
+    height: 362px; */
 }
 
 .clients-list {
+    display: flex;
+    flex-direction: column;
+    /* flex: 0 0 calc(33.3% - 15px); */
+    border-radius: 5px;
+    border: #E4E4E4 solid 1px;
     width: 370px;
     height: 362px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    flex: 0 0 calc(33.3% - 15px);
+    padding-top: 51px;
+    padding-left: 36px;
 }
 
-.comment-costomers {
-    margin-bottom: 62px;
-}
-.costomers-name {
-    display: flex;
-    flex-direction: column;
-    padding-left: 227px;
+.customers-comment {
+    width: 281px;
+    height: 150px;
+    font-size: 14px;
+    padding-bottom: 62px;
 }
 
-.costomers-photo {
+.customers {
+    display: flex;
+    flex-direction: row;
+}
+
+.names-customer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+}
+
+.name-customer {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+ .customer {
+    width: 65px;
+    height: 25px;
+    font-size: 14px;
+ }
+
+.imgCustomer {
     width: 67px;
     height: 67px;
 }
@@ -382,4 +402,60 @@ a {
     height: 31px;
     font-size: 17px;
     margin-bottom: 19px;
+}
+
+#joinUs {
+    height: 573px;
+    width: 1539px;
+    padding-left: 717px;
+}
+
+.footer-wrapper {
+    background-image: url(../images/logo\ \(1\).svg);
+    background-repeat: no-repeat;
+    margin-left:  185px;
+    height: 89px;
+    max-width: 1169px;
+    display: flex;
+    gap: 56px;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    left: 140px;
+    bottom: 60px;
+    width: 202px;
+    height: 16px;
+    font-size: 12px;
+}
+
+.footer-item {
+    margin-left: 426px;
+    display: flex;
+    gap: 28px;
+}
+.footer-list {
+    height: 20px;
+    font-size: 15px;
+}
+.footer-list:nth-child(1) {
+    width: 67px;
+}
+
+.footer-list:nth-child(2) {
+    width: 79px;
+}
+
+.footer-list:nth-child(3) {
+    width: 99px;
+}
+
+.footer-list:nth-child(4) {
+    width: 120px;
+}
+
+.weblink {
+    display: flex;
+    gap: 32px;
 }
