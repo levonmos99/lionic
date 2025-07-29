@@ -10,7 +10,7 @@
 <body>
     <header class="main-header">
         <nav class="nav-list">
-                <img src="../images/logo.svg" alt="logo Lionic">
+                <img src="./images/logo.svg" alt="logo Lionic">
             <ul class="nav-item-list">
                 <li class="nav-list-item">
                     <a href="#">Home</a>
@@ -29,9 +29,10 @@
                 </li>
                 <li class="nav-list-item">
                     <a href="#joinUs">Join us</a>
-                </li>       
+                </li>
+                <button class="free-trial">FREE TRIAL </button>     
             </ul>
-            <button class="free-trial">FREE TRIAL </button>
+            <!-- <button class="free-trial">FREE TRIAL </button> -->
         </nav>
     </header>
     <main>
@@ -160,7 +161,7 @@
                     Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
                   </p>   
                     <div class="customers">
-                        <img class="imgCustomer" src="../images/John Armstrong.jpg" alt="John Armstrong" >
+                        <img class="imgCustomer" src="./images/John Armstrong.jpg" alt="John Armstrong" >
                             <div class="names-customer"> 
                                 <h3 class="name-customer"> John Armstrong </h3>
                                 <span class="customer"> Customer </span>
@@ -172,7 +173,7 @@
                     Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
                   </p>   
                     <div class="customers">
-                        <img class="imgCustomer" src="../images/Elizabeth Martin.jpg" alt="Elizabeth Martin" >
+                        <img class="imgCustomer" src="./images/Elizabeth Martin.jpg" alt="Elizabeth Martin" >
                             <div class="names-customer"> 
                                 <h3 class="name-customer"> Elizabeth Martin </h3>
                                 <span class="customer"> Customer </span>
@@ -184,7 +185,7 @@
                     Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
                   </p>  
                     <div class="customers">
-                        <img class="imgCustomer" src="../images/Robin Soutby.jpg" alt="Robin Soutby" >
+                        <img class="imgCustomer" src="./images/Robin Soutby.jpg" alt="Robin Soutby" >
                             <div class="names-customer"> 
                                 <h3 class="name-customer"> Robin Soutby </h3>
                                 <span class="customer"> Customer </span>
@@ -232,10 +233,35 @@
                 </li>
             </ul>
         </section>
-        <section id="joinUs" class="">
-            <h2>
+         <section id="joinUs" class="join-us-section">
+            <h2 class="join-us-header">
                 Join Us
             </h2>
+            <p class="control">
+                 Take control of your paid subscriptions today!
+            </p>
+            <form method="GET" action="">
+                <!-- <label for="name"></label> -->
+                <input type="text" id="name" name="name" placeholder="Name">
+
+                <!-- <label for="E-mail"></label> -->
+                <input type="email" id="e-mail" name="e-mail" placeholder="E-mail">
+
+                <!-- <label for="Comment"></label> -->
+                <input type="text" id="comment" name="comment" placeholder="Comment">
+
+                <!-- <label for="tel"></label> -->
+                <input type="tel" id="tel" name="Phone" placeholder="Phone">
+                <select  name="country" class="country-select" required>
+                    <option value="" disabled selected hidden class="country-list"> Country</option>
+                    <option value="United Kingdom" class="country-option">United Kingdom</option>
+                    <option value="United States" class="country-option">United States</option>
+                    <option value="France" class="country-option">France</option>
+                    <option value="Germany" class="country-option">Germany</option>
+                    <option value="Spain" class="country-option">Spain</option>
+                    <option value="Estonia" class="country-option">Estonia</option>
+                </select>
+            </form>
         </section>
     </main>
     <footer class="footer-wrapper">
