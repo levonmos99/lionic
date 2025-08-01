@@ -36,7 +36,7 @@ html {
 }
 body {
     font-family: 'OpenSans',sans-serif;
-    max-width: 1920px;
+    max-width: 1170px;
     margin: 30px auto; 
    
 }
@@ -85,13 +85,11 @@ a {
 .nav-list, .nav-item-list {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .nav-item-list {
     gap: 52px;
-    padding-left: 271px;
-    padding-right: 52px;
 }
 
 .nav-list-item {
@@ -128,26 +126,28 @@ a {
     padding-left: 26px;
     margin: 28px 40px 87px 40px;
     font-size: 11px;
+    height: 17px;
+    display: flex;
+    align-items: center;
 }
 
 .list {
     font-size: 36px;
     display: flex;
-    margin: 87px 704px 21px 704px;
-
+    margin-bottom: 21px;
+    justify-content: center;
 }
 
 .services-block {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 160px;
 }
 
 .about-services {
-     font-size: 16px;
-    display: flex;
-    margin: 21px 480px 54px 480px;
+    font-size: 16px;
+    margin: 0 auto 54px auto;
 }
 
 .services-list {
@@ -179,12 +179,24 @@ a {
     text-align: center;
 }
 
+.article, .client, .contacts {
+    margin: 0 auto;
+    border-top: 1px solid #E4E4E4;
+    padding-top: 87px;
 
-.article {
-    margin: 0;
-    
 }
 
+.article, .client {
+    margin-bottom: 160px;
+    font-size: 36px;
+    font-family: 'OpenSans-Light';
+}
+
+.contacts {
+    margin-bottom: 109px;
+    font-size: 36px;
+    font-family: 'OpenSans-Light';
+}
 .header-article {
     font-size: 36px;
     width: 118px;
@@ -196,6 +208,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
+    margin: 0;
     margin-bottom: 248px;
     max-width: 1170px;
 }
@@ -206,7 +219,6 @@ a {
     flex: 0 0 calc(50% - 15px);
     border: 1px solid #e4e4e4;
     border-radius: 5px;
-    height: 180px;
     max-width: 570px;
 }
 
@@ -242,16 +254,18 @@ a {
     display: flex;
     flex-direction: column;
     padding-left: 200px;
+    margin-top: 23px;
 }
 
 .aboutphoto {
     height: 63px;
     width: 210px;
     font-size: 14px;
+    margin: 0;
+    line-height: 150%;
 }
 
 .description {
-    width: 109px;
     height: 26px;
     font-size: 20px;
     margin: 0;
@@ -264,10 +278,6 @@ a {
     font-size: 10px;
 }
 
-.client {
-    
-}
-
 .header-clients{
     font-size: 36px;
     width: 118px;
@@ -278,29 +288,27 @@ a {
 .clients-item {
     display: flex;
     flex-direction: row;
-    margin-bottom: 248px;
+    margin: 0;
+    margin-bottom: 87px;
     gap: 30px;
-    /* width: 370px;
-    height: 362px; */
 }
 
 .clients-list {
     display: flex;
     flex-direction: column;
-    /* flex: 0 0 calc(33.3% - 15px); */
     border-radius: 5px;
-    border: #E4E4E4 solid 1px;
+    border:1px solid #E4E4E4;
     width: 370px;
     height: 362px;
-    padding-top: 51px;
-    padding-left: 36px;
 }
 
 .customers-comment {
-    width: 281px;
+    /* width: 281px; */
     height: 150px;
     font-size: 14px;
-    padding-bottom: 62px;
+    line-height: 180%;
+    margin: 0;
+    padding: 51px 53px 33px 36px;
 }
 
 .customers {
@@ -327,17 +335,6 @@ a {
 .imgCustomer {
     width: 67px;
     height: 67px;
-}
-
-.contact {
-      
-}
-
-.contacts {
-    font-size: 36px;
-    width: 118px;
-    height: 47px;
-    margin-bottom: 42px;
 }
 
 .contacts-item {
